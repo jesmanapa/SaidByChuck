@@ -1,0 +1,40 @@
+@font-face {
+  font-family: oldScript;
+  src: url('font/Old_Script.ttf');
+}
+
+
+body{
+  background-image: url('/img/fondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-inverse{
+  background: none;
+}
+
+ul.dropdown-menu, .dropdown-menu>li>a{
+  background: none;
+  color: white;
+}
+
+.panel-portada{
+  margin-top: 20%;
+  color: white;
+  padding: 20px;
+  background: none;
+  border-radius: 15px;
+}
+
+.frase{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.firma{
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: 'oldScript';
+}
