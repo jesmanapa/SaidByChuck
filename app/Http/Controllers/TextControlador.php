@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Text;
+
 use Illuminate\Http\Request;
-use Auth;
 use Illuminate\Support\Facades\Session;
+use App\Text;
+use Auth;
 
 class TextControlador extends Controller
 {
